@@ -1,0 +1,123 @@
+@media screen and (max-width: 428px) {
+    * {
+        max-width: 428px;
+    }
+    
+    header {
+        height: 31.56rem;
+        background-position: 73%;
+    }
+    
+    /* Header content */
+    .header-content {
+        height: 22.87rem;
+        gap: 2.5rem;
+    }
+    
+    .header-text {
+        width: 47.31rem;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+    
+    .header-text h1 {
+        margin-left: 1.5rem;
+        width: 17.37rem;
+        height: 4rem;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 2rem;
+    }
+    
+    .header-text p {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        text-align: justify;
+    }
+    
+    /* General button */
+
+    .header-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .general-button {
+        padding: 0.75rem 1rem;
+        width: 23.81rem;
+        font-size: 1rem;
+    }
+
+    /* Main */
+    main section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .info p {
+        width: 23.62rem;
+    }
+
+    .info h2 {
+        width: 23.12rem;
+        font-size: 1.5rem;
+    }
+    
+    .div-img {
+        width: 23.68rem;
+        height: 15.75rem;
+    }
+
+    .section-1 {
+        width: 26.75rem;
+        height: 35.81rem;
+        flex-direction: column;
+        padding: 1.5rem 1rem;
+    }
+    
+    .section-2, .section-3 {
+        height: 31.68rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    #container-4 {
+        height: 35rem;
+    }
+    
+    .section-4 {
+        padding: 1rem;
+    }
+    
+    .section-4 .info {
+        text-align: start;
+    }
+    
+    .section-4 .info h2 {
+        width: 23.5rem;
+    }
+    
+    .section-4 p {
+        width: 23.625rem;
+    }
+    
+    /* Footer styles */
+    footer {
+        height: 8.75rem;
+    }    
+    
+    #logo-discord {
+        width: 10.12rem;
+    }
+}
